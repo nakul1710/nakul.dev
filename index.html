@@ -1,38 +1,129 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html>
   <head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-    #kuku{
-      font-size: 50px;
-    }
+        a {
+            text-align: center;
+        }
+      body {
+        margin: 0;
+      }
 
-      #center{
-        font-size: 100px;
-        font-family:"Audiowide", sans-serif;
+      .title {
+        background-color: black;
+        padding: 10px;
+        text-align: center;
       }
-      .center{
-        text-align: center; 
+
+      .navbar {
+       background-color: green;
+       display: grid;
       }
-      p{
-        position: absolute;
-        bottom: 0;
+
+      .nav {
+        list-style-type: none;
+        background-color: green;
       }
+      .nav ul  {
+        text-align: center;
+        margin:0;
+      }
+      .nav li a {
+        color: black;
+        background-color: grey;
+        padding: 14px 16px;
+        float: left;
+        display: block;
+        margin:0;
+      }
+
+      .nav li a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      .div:hover {
+        background-color: blue;
+      }
+      #nakul a:link{
+        background-color: red;
+        color: black;
+        border: 2px solid black;
+        padding:20px 12px;
+        text-align:center;
+        text-decoration: none;
+       }
+       
+       .column {
+        float:left;
+        width:20%;
+        padding:45px;
+        margin: 0px;
+        text-align:center;
+       }
+       row::after{
+        content:"";
+        display:table;
+        clear:both;
+       }
+       #nakul a:hover{
+        background-color: green;
+        color:white;
+       }
+       #nakul {
+        margin-top: 100px;
+        margin-bottom: 0px;
+       }
+       @media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
     </style>
-    
-    <title>BOOK BUDDY</title>
   </head>
-  <body style="background-color: red;">
-    <main style="margin-top: 200px;">
-     <h1 class="center" id="center">BOOK BUDDY</h1>
-     <h3 class="center" id="kuku">coming soon</h3>
-    </main>
-    <footer>
-      <p>
-        No Copyright - <a  href="https://www.nakul.dev">nakul.dev</a>
-      </p>
-    </footer>
+  <body>
+    <header>
+            <div class="title">
+                     <img src="./img/logo.png" width="140px" height="140px">
+                    <h1 style="color:white">Book Buddy</h1>
+            </div>
+            <nav class="navbar">
+                <ul style="text-align: center;"class="nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Feature</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+    </header>
+    
+     <img src="./img/pexels-photo-1467300.jpeg" alt="dubai buraj khalifa" width="100%" height="500px">
+    <h1  style="text-align: center;">Features</h1>
+    <div class="row">
+      <div class="column">
+        <h1>Ac Rooms</h1>
+        <p> The library is equipped with air-conditioned rooms, ensuring a comfortable environment for patrons to study and read in any weather.</p>
+      </div>
+      <div class="column">
+        <h1>Personal Space</h1>
+        <p>The library provides ample personal space for individuals to work and study without distractions. It may include individual study carrels or dedicated study cubicles.</p>
+      </div>
+      <div class="column">
+        <h1>Self-Checkouts</h1>
+        <p>The library offers an online catalog system where users can easily search for books and other resources. Additionally, self-checkout stations allow patrons to borrow items conveniently without the need for assistance from library staff..</p>
+      </div>
+      <div class="column">
+        <h1>High Speed Wifi</h1>
+        <p>Patrons can enjoy access to high-speed WIFI throughout the library premises, enabling them to conduct online research, download resources, and access digital materials seamlessly.</p>
+      </div>
+    </div>
+
+     <div id="nakul" style="text-align:end" >
+        <a href="https://forms.gle/BWoxCGaggsXpeVHF8" target="_blank">Join Taday @300 only</a>
+     </div>
+
   </body>
 </html>
