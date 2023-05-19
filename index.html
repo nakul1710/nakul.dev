@@ -3,105 +3,47 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        a {
-            text-align: center;
-        }
-      body {
-        margin: 0;
-      }
+    <link href="css/style.css" rel="stylesheet">
 
-      .title {
-        background-color: black;
-        padding: 10px;
-        text-align: center;
-      }
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1JZ2ZSYTPK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-      .navbar {
-       background-color: green;
-       display: grid;
-      }
+  gtag('config', 'G-1JZ2ZSYTPK');
+</script>
 
-      .nav {
-        list-style-type: none;
-        background-color: green;
-      }
-      .nav ul  {
-        text-align: center;
-        margin:0;
-      }
-      .nav li a {
-        color: black;
-        background-color: grey;
-        padding: 14px 16px;
-        float: left;
-        display: block;
-        margin:0;
-      }
-
-      .nav li a:hover {
-        background-color: #ddd;
-        color: black;
-      }
-      .div:hover {
-        background-color: blue;
-      }
-      #nakul a:link{
-        background-color: red;
-        color: black;
-        border: 2px solid black;
-        padding:20px 12px;
-        text-align:center;
-        text-decoration: none;
-       }
-       
-       .column {
-        float:left;
-        width:20%;
-        padding:45px;
-        margin: 0px;
-        text-align:center;
-       }
-       row::after{
-        content:"";
-        display:table;
-        clear:both;
-       }
-       #nakul a:hover{
-        background-color: green;
-        color:white;
-       }
-       #nakul {
-        margin-top: 100px;
-        margin-bottom: 0px;
-       }
-       @media screen and (max-width:600px) {
-  .column {
-    width: 100%;
-  }
-}
-
-    </style>
   </head>
   <body>
     <header>
-            <div class="title">
-                     <img src="./img/logo.png" width="140px" height="140px">
-                    <h1 style="color:white">Book Buddy</h1>
-            </div>
-            <nav class="navbar">
-                <ul style="text-align: center;"class="nav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Feature</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
-            </nav>
+      <div class="title">
+        <img src="./img/logo.png" width="140px" height="140px">
+        <h1 style="color:white">Book Buddy</h1>
+      </div>
+      <nav class="navbar">
+        <ul style="text-align: center;" class="nav">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">About Us</a>
+          </li>
+          <li>
+            <a href="#">Pricing</a>
+          </li>
+          <li>
+            <a href="#">Feature</a>
+          </li>
+          <li>
+            <a href="#">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    
-     <img src="./img/pexels-photo-1467300.jpeg" alt="dubai buraj khalifa" width="100%" height="500px">
-    <h1  style="text-align: center;">Features</h1>
+    <img src="./img/banner.jpeg" alt="dubai buraj khalifa" width="100%" height="500px">
+    <h1 style="text-align: center;">Features</h1>
     <div class="row">
       <div class="column">
         <h1>Ac Rooms</h1>
@@ -120,10 +62,27 @@
         <p>Patrons can enjoy access to high-speed WIFI throughout the library premises, enabling them to conduct online research, download resources, and access digital materials seamlessly.</p>
       </div>
     </div>
-
-     <div id="nakul" style="text-align:end" >
-        <a href="https://forms.gle/BWoxCGaggsXpeVHF8" target="_blank">Join Taday @300 only</a>
-     </div>
-
+    <div id="nakul">
+      <a href="https://forms.gle/BWoxCGaggsXpeVHF8" target="_blank">Join Taday @300 only</a>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14117.271995363571!2d76.63023946710403!3d27.79998096807085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3972bbe5e3849dd7%3A0x473b638b18e2f14!2sBookbuddy%20library%20khairthal!5e0!3m2!1sen!2sin!4v1684503986294!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <footer>
+      <div class="row">
+        <div class="column">
+          <ul>
+            <li>tea</li>
+            <li>black</li>
+            <li>green</li>
+          </ul>
+        </div>
+        <div class="column">
+          <ul>
+            <li>trees</li>
+            <li>bikes</li>
+            <li>cars</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
