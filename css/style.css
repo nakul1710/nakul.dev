@@ -6,12 +6,43 @@ body {
 	margin: 0;
 }
 
-.title {
+.header {
 	background-color: black;
-	padding: 10px;
+	padding: 20px;
 	text-align: center;
+	color: white;
 }
 
+  .topnav {
+	overflow: hidden;
+	background-color: black;
+  }
+  
+  .topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .topnav a:hover {
+	background-color: white;
+	color: black;
+  }
+  
+  .topnav a.active {
+	background-color: #04AA6D;
+	color: white;
+  }
+
+  .topnav a.split {
+	float: right;
+	background-color: red;
+	color: white;
+  }
+  
 .navbar {
 	background-color: green;
 	display: grid;
@@ -41,11 +72,48 @@ body {
 	color: black;
 }
 
-.div:hover {
-	background-color: blue;
+.column {
+	float: left;
+	width: 20%;
+	padding: 25px;
+	margin: 0px;
+	text-align: center;
 }
 
-#nakul a:link {
+.row {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+.container .vertical-center a:hover {
+	background-color: green;
+	color: white;
+}
+
+.container {
+	width: 100%;
+	position: relative;
+}
+
+.feature {
+	width: 100%;
+	position: relative;
+}
+
+.vertical-center {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+  }
+
+  .container .vertical-center a:link {
 	background-color: red;
 	color: black;
 	border: 2px solid black;
@@ -53,28 +121,6 @@ body {
 	text-align: center;
 	text-decoration: none;
 }
-
-.column {
-	float: left;
-	width: 20%;
-	padding: 45px;
-	margin: 0px;
-	text-align: center;
-}
-
-row::after {
-	display: table;
-}
-
-#nakul a:hover {
-	background-color: green;
-	color: white;
-}
-
-#nakul {
-	margin: 100px 0px
-}
-
 @media screen and (max-width:600px) {
 	.column {
 		width: 100%;
