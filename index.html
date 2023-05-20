@@ -5,56 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/style.css" rel="stylesheet">
     <meta name="google-site-verification" content="2ey4fzttLd0N2I9UF1c6M5oMpRbY39RMUXyvJ9Uy5qg" />
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1JZ2ZSYTPK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1JZ2ZSYTPK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-1JZ2ZSYTPK');
-</script>
-
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-1JZ2ZSYTPK');
+    </script>
   </head>
   <body>
     <header>
-   
-    <div class="header">
-      <h1>Book Buddy</h1>
-    </div>
-    <nav>
-      <div class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#pricing">Pricing</a>
-        <a href="#contact">Contact</a>
-        <a href="https://forms.gle/BWoxCGaggsXpeVHF8" class="split">Join</a>
+      <div class="header">
+        <h1>Book Buddy</h1>
+      </div>
+      <nav >
+        <div class="topnav"  style="position: sticky;top: 0;">
+          <a class="active" href="#home">Home</a>
+          <a href="#about">About us</a>
+          <a href="#feature">Features</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#contact">Contact</a>
+          <a href="https://forms.gle/BWoxCGaggsXpeVHF8" target="_blank" class="split">Join</a>
       </nav>
       <div class="hero-image">
-  
     </header>
     <img src="./img/banner.jpeg" alt="dubai buraj khalifa" width="100%" height="500px">
-    <h1 style="text-align: center;">Features</h1>
-    <div class="feature">
-      <div class="row">
-        <div class="column">
-          <h1>Ac Rooms</h1>
-          <p> The library is equipped with air-conditioned rooms, ensuring a comfortable environment for patrons to study and read in any weather.</p>
-        </div>
-        <div class="column">
-          <h1>Personal Space</h1>
-          <p>The library provides ample personal space for individuals to work and study without distractions. It may include individual study carrels or dedicated study cubicles.</p>
-        </div>
-        <div class="column">
-          <h1>Self-Checkouts</h1>
-          <p>The library offers an online catalog system where users can easily search for books and other resources. Additionally, self-checkout stations allow patrons to borrow items conveniently without the need for assistance from library staff..</p>
-        </div>
-        <div class="column">
-          <h1>High Speed Wifi</h1>
-          <p>Patrons can enjoy access to high-speed WIFI throughout the library premises, enabling them to conduct online research, download resources, and access digital materials seamlessly.</p>
+    <section id="about" >
+      <h1 style="text-align: center;font-size: 50px;">About</h1>
+      <img  style="margin-left: 47%;" src="./img/logo.png" width="100px" height="100px">
+      <p style="text-align: center;font-size: 30px;">Prakash Chand Yadav</p>
+      <p style="text-align: center;font-size: 20px;">kjjbdszkjvbkjbv kjsvbkjbxvf kjdbfgkjdfkjbgjk jksbhjvbdjfbv kjjdfbgkjdbfg</p>
+    </section>
+    <section id="feature">
+      <h1 style="text-align: center;font-size: 50px;">Features</h1>
+      <div class="feature" >
+        <div class="row">
+          <div class="column">
+            <h1>Ac Rooms</h1>
+            <p> The library is equipped with air-conditioned rooms, ensuring a comfortable environment for patrons to study and read in any weather.</p>
+          </div>
+          <div class="column">
+            <h1>Personal Space</h1>
+            <p>The library provides ample personal space for individuals to work and study without distractions. It may include individual study carrels or dedicated study cubicles.</p>
+          </div>
+          <div class="column">
+            <h1>Self-Checkouts</h1>
+            <p>The library offers an online catalog system where users can easily search for books and other resources. Additionally, self-checkout stations allow patrons to borrow items conveniently without the need for assistance from library staff..</p>
+          </div>
+          <div class="column">
+            <h1>High Speed Wifi</h1>
+            <p>Patrons can enjoy access to high-speed WIFI throughout the library premises, enabling them to conduct online research, download resources, and access digital materials seamlessly.</p>
+          </div>
         </div>
       </div>
-    </div>
-    
+    </section>
+    <section class="pricing" id="pricing">
+      <h1 style="text-align: center; font-size: 50px;">Pricing</h1>
+      <table>
+        <tr>
+          <th>Hours</th>
+          <th>pricing</th>
+        </tr>
+        <tr>
+          <td>5 Hours </th>
+          <td>500/- </th>
+        </tr>
+        <td>3 Hours</td>
+        <td> 300 </td>
+        </tr>
+        <tr>
+          <td>1 Hours</td>
+          <td>200/-</td>
+        </tr>
+      </table>
+    </section>
+    <section class="contact" id="contact">
+      <h1 style="text-align: center; font-size: 50px;">contact</h1>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14117.271995363571!2d76.63023946710403!3d27.79998096807085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3972bbe5e3849dd7%3A0x473b638b18e2f14!2sBookbuddy%20library%20khairthal!5e0!3m2!1sen!2sin!4v1684564225303!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
   </body>
 </html>

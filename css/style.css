@@ -126,3 +126,19 @@ body {
 		width: 100%;
 	}
 }
+table,td,th {
+    border:5px solid black;
+    text-align: center;
+}
+table {
+    width:100%;
+    border-collapse: collapse;
+}
+
+.pricing {
+    margin: 100px;
+    margin-top: 400px;
+}
+.about img {
+    margin-left: 50%;
+}
