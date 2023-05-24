@@ -6,10 +6,9 @@ body {
 	margin: 0;
 }
 
-.header {
-	background-color: black;
+.header {background-color: black;
 	padding: 20px;
-	text-align: center;
+text-align: center;
 	color: white;
 }
 
@@ -125,4 +124,20 @@ body {
 	.column {
 		width: 100%;
 	}
+}
+table,td,th {
+    border:5px solid black;
+    text-align: center;
+}
+table {
+    width:100%;
+    border-collapse: collapse;
+}
+
+.pricing {
+    margin: 100px;
+    margin-top: 907px;
+}
+.about img {
+    margin-left: 50%;
 }
