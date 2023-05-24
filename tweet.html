@@ -1,80 +1,13 @@
-<!-- # 100DaysToCode - Learning Html
-# Day 1: 
-- Design in PNG
-- Design a tweet  -->
+<!-- 
+# 100DaysToCode - Learning Html and Css
+# Day 1:  Design a twitter Feed  
+-->
 
 <!DOCTYPE html>
 <html>
     <head>
         <title>Tweet</title>
-        <style>
-        body {
-            background-color: black;
-        }
-        .profile-pic{
-            border:1px solid black;
-            border-radius: 300px;
-            width:55px;
-            height:55px;
-            float: left;
-            margin-right: 10px;
-        }
-        .profile-name{
-            font-size: 16px;
-            color:white;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        
-        .profile-name:hover{
-            text-decoration: underline;
-        }
-        .tweet-text {
-            margin: 5px;
-            margin-top: 15px;
-            margin-bottom: 15px;
-            color: white;
-            font-size: 16px;
-            display:inline-block;
-        }
-        .numbers {
-            margin: 5px;
-            color: grey;
-            font-size: 15px;
-        }
-        .numbers:hover {
-            margin: 5px;
-            color: white;
-            font-size: 15px;
-        }
-        .numbers:visited {
-            margin: 5px;
-            color: green;
-            font-size: 15px;
-        }
-        .user{
-            height:55 px;
-            
-        
-            line-height: 6px;
-            color: white;
-        }
-        section {
-            width: 100%;
-            display: block;
-            max-width: 500px;
-            margin: 3.125rem auto 0 auto;
-            border:1px solid white;
-        }
-        .tweet {
-            padding:10px;
-      }
-      .profile-username{
-        font-size: 15px;
-        color:grey;
-      }
-      
-        </style>
+        <link href="./css/tweet.css" rel="stylesheet">
     </head>
     <body>
         <section>
@@ -82,44 +15,107 @@
                 <div class="profile">
                     <img class="profile-pic" src="./img/profile.jpeg" alt="">
                     <div class="user">
-                        <p><a href="" class="profile-name">Nakul Yadav</a> <img class="verify" width="15px" height="15px" src="./img/verify.png">
+                        <p><a href="https://twitter.com/nakul1705" class="profile-name">Nakul Yadav</a> <img class="verify" width="15px" height="15px" src="./img/verify.png">
                         </p>
-                        <p class="profile-username">@nakul1710</p>
+                        <p class="profile-username">@nakul1705</p>
                     </div>
                 </div>
-                <div class="tweet-text">Github is a Aadhar card for a developer 😂 Github is a Aadhar card for a developer 😂 Github is a Aadhar card for a developer 😂</div>
-                <div class="numbers"><a href="https://twitter.com/remotejoeclark/status/1661029741640527873">
+                <div class="tweet-text">Github is a Aadhar card for a developer 😂
+                  <a class="tag" href="https://twitter.com/GitHubIndia"> @GitHubIndia</a>
+                  <a class="tag" href="https://twitter.com/github"> @github</a>
+                     
+                     </div>
+                <div class="numbers"><a class="time" href="#">
                     11:44 PM · May 23, 2023
                     </a>
-                </div><hr>
+                </div>
+                <hr>
+            </div>
+            <div class="tweet">
+                <div class="profile">
+                    <img class="profile-pic" src="./img/tesla.png" alt="">
+                    <div class="user">
+                        <p><a href="https://twitter.com/Tesla" class="profile-name">Tesla</a><img class="verify" width="15px" height="15px" src="./img/verify.png"></p>
+                        <p class="profile-username">@Tesla</p>
+                    </div>
+                </div>
+                <div class="tweet-text">
+                    <img src="./img/cat.jpeg" style="max-width: 470px;"> </div>
+                <div class="numbers"><a class="time"  href="#">
+                    11:44 PM · May 23, 2023
+                    </a>
+                </div>
+                <hr>
+            </div>
+            <div class="tweet">
+                <div class="profile">
+                    <img class="profile-pic" src="./img/profile.jpg" alt="">
+                    <div class="user">
+                        <p><a href="https://twitter.com/elonmusk" class="profile-name">Elon Musk</a><img class="verify" width="15px" height="15px" src="./img/verify.png"></p>
+                        <p class="profile-username">@elonmusk</p>
+                    </div>
+                </div>
+                <div class="tweet-text">Both quality & quantity of high quality posts of all kinds (short text, long essays, pictures, audio & video) have improved dramatically. 
+
+                    Thank you for contributing your voice to humanity’s digital public square! </div>
+                <div class="numbers"><a class="time" href="#">
+                    11:44 PM · May 23, 2023
+                    </a>
+                </div>
+                <hr>
+            </div>
+            <div class="tweet">
+                <div class="profile">
+                    <img class="profile-pic" src="./img/tesla.png" alt="">
+                    <div class="user">
+                        <p><a href="https://twitter.com/Tesla" class="profile-name">Tesla</a><img class="verify" width="15px" height="15px" src="./img/verify.png"></p>
+                        <p class="profile-username">@Tesla</p>
+                    </div>
+                </div>
+                <div class="tweet-text">Multiple fully Tesla-made Bots now walking around & learning about the real world 🤖 
+
+                    Join the Tesla AI team → http://tesla.com/AI</div>
+                <div class="numbers"><a class="time"  href="#">
+                    11:44 PM · May 23, 2023
+                    </a>
+                </div>
+                <hr>
             </div>
             <div class="tweet">
                 <div class="profile">
                     <img class="profile-pic" src="./img/profile.jpeg" alt="">
                     <div class="user">
-                        <p><a href="" class="profile-name">Nakul Yadav</a><img class="verify" width="15px" height="15px" src="./img/verify.png"></p>
-                        <p class="profile-username">@nakul1710</p>
+                        <p><a href="https://twitter.com/nakul1705" class="profile-name">Nakul Yadav</a> <img class="verify" width="15px" height="15px" src="./img/verify.png">
+                        </p>
+                        <p class="profile-username">@nakul1705</p>
                     </div>
                 </div>
-                <div class="tweet-text">Github is a Aadhar card for a developer 😂 Github is a Aadhar card for a developer 😂Github is a Aadhar card for a developer 😂</div>
-                <div class="numbers"><a href="https://twitter.com/remotejoeclark/status/1661029741640527873">
+                <div class="tweet-text">Github is a Aadhar card for a developer 😂
+                  <a class="tag" href="https://twitter.com/GitHubIndia"> @GitHubIndia</a>
+                  <a class="tag" href="https://twitter.com/github"> @github</a>
+                     
+                     </div>
+                <div class="numbers"><a class="time" href="#">
                     11:44 PM · May 23, 2023
                     </a>
-                </div><hr>
+                </div>
+                <hr>
             </div>
             <div class="tweet">
                 <div class="profile">
-                    <img class="profile-pic" src="./img/profile.jpeg" alt="">
+                    <img class="profile-pic" src="./img/profile.jpg" alt="">
                     <div class="user">
-                        <p><a href="" class="profile-name">Nakul Yadav</a><img class="verify" width="15px" height="15px" src="./img/verify.png"></p>
-                        <p class="profile-username">@nakul1710</p>
+                        <p><a href="https://twitter.com/elonmusk" class="profile-name">Elon Musk</a><img class="verify" width="15px" height="15px" src="./img/verify.png"></p>
+                        <p class="profile-username">@elonmusk</p>
                     </div>
                 </div>
-                <div class="tweet-text">Github is a Aadhar card for a developer 😂 Github is a Aadhar card for a developer 😂 Github is a Aadhar card for a developer 😂</div>
-                <div class="numbers"><a href="https://twitter.com/remotejoeclark/status/1661029741640527873">
+                <div class="tweet-text">Both quality & quantity of high quality posts of all kinds (short text, long essays, pictures, audio & video) have improved dramatically. 
+
+                    Thank you for contributing your voice to humanity’s digital public square! </div>
+                <div class="numbers"><a class="time" href="#">
                     11:44 PM · May 23, 2023
                     </a>
-                </div>
+                </div><hr>
             </div>
         </section>
     </body>
