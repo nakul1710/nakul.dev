@@ -80,3 +80,9 @@ section {
 	border: 1px solid white;
 	border-radius: 0.50rem;
 }
+.video {
+    max-width: 470px;
+	border: 1px solid white;
+	border-radius: 0.50rem;
+    margin-top: 6px;
+}
