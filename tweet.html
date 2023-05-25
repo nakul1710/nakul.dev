@@ -1,122 +1,174 @@
 <!-- 
 # 100DaysToCode - Learning Html and Css
-# Day 1:  Design a twitter Feed  
+# Day 2:  Design a profile tool tip for twiiter feed and add buttons for reply, retweet and like.  
 -->
 
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Tweet</title>
-        <link href="./css/tweet.css" rel="stylesheet">
-    </head>
-    <body>
-        <section>
-            <div class="tweet">
-                <div class="profile">
-                    <img class="profile-pic" src="./img/profile.jpeg" alt="">
-                    <div class="user">
-                        <p><a href="https://twitter.com/nakul1705" class="profile-name">Nakul Yadav</a> <img class="verify" width="15px" height="15px" src="./img/verify.png">
-                        </p>
-                        <p class="profile-username">@nakul1705</p>
-                    </div>
-                </div>
-                <div class="tweet-text">Github is a Aadhar card for a developer 😂
-                  <a class="tag" href="https://twitter.com/GitHubIndia"> @GitHubIndia</a>
-                  <a class="tag" href="https://twitter.com/github"> @github</a>
-                     
-                     </div>
-                <div class="numbers"><a class="time" href="#">
-                    11:44 PM · May 23, 2023
-                    </a>
-                </div>
-                <hr>
-            </div>
-            <div class="tweet">
-                <div class="profile">
-                    <img class="profile-pic" src="./img/tesla.png" alt="">
-                    <div class="user">
-                        <p><a href="https://twitter.com/Tesla" class="profile-name">Tesla</a><img class="verify" width="15px" height="15px" src="./img/verify.png"></p>
-                        <p class="profile-username">@Tesla</p>
-                    </div>
-                </div>
-                <div class="tweet-text">
-                    <img class="tweet-image" src="./img/cat.jpeg"> </div>
-                <div class="numbers"><a class="time"  href="#">
-                    11:44 PM · May 23, 2023
-                    </a>
-                </div>
-                <hr>
-            </div>
-            <div class="tweet">
-                <div class="profile">
-                    <img class="profile-pic" src="./img/profile.jpg" alt="">
-                    <div class="user">
-                        <p><a href="https://twitter.com/elonmusk" class="profile-name">Elon Musk</a><img class="verify" width="15px" height="15px" src="./img/verify.png"></p>
-                        <p class="profile-username">@elonmusk</p>
-                    </div>
-                </div>
-                <div class="tweet-text">Both quality & quantity of high quality posts of all kinds (short text, long essays, pictures, audio & video) have improved dramatically. 
 
-                    Thank you for contributing your voice to humanity’s digital public square! </div>
-                <div class="numbers"><a class="time" href="#">
-                    11:44 PM · May 23, 2023
-                    </a>
-                </div>
-                <hr>
-            </div>
-            <div class="tweet">
-                <div class="profile">
-                    <img class="profile-pic" src="./img/tesla.png" alt="">
-                    <div class="user">
-                        <p><a href="https://twitter.com/Tesla" class="profile-name">Tesla</a><img class="verify" width="15px" height="15px" src="./img/verify.png"></p>
-                        <p class="profile-username">@Tesla</p>
-                    </div>
-                </div>
-                <div class="tweet-text">Multiple fully Tesla-made Bots now walking around & learning about the real world 🤖 
+<head>
+    <title>Twitter Profile</title>
+    <link href="./css/tweet.css" rel="stylesheet">
+</head>
 
-                    Join the Tesla AI team → http://tesla.com/AI</div>
-                <div class="numbers"><a class="time"  href="#">
-                    11:44 PM · May 23, 2023
-                    </a>
-                </div>
-                <hr>
+<body>
+    <section>
+        <div class="about-profile">
+            <div class="pic">
+                <img class="profile-pic" src="./img/profile.jpg">
+                <a href="https://twitter.com/elonmusk">Follow</a>
             </div>
-            <div class="tweet">
-                <div class="profile">
-                    <img class="profile-pic" src="./img/profile.jpeg" alt="">
-                    <div class="user">
-                        <p><a href="https://twitter.com/nakul1705" class="profile-name">Nakul Yadav</a> <img class="verify" width="15px" height="15px" src="./img/verify.png">
-                        </p>
-                        <p class="profile-username">@nakul1705</p>
-                    </div>
-                </div>
-                <div class="tweet-text">
-                    Flying Through Giga Berlin
-                    <iframe class="video"  width=500 height="315" src="https://www.youtube.com/embed/7-4yOx1CnXE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                  
-                     </div>
-                <div class="numbers"><a class="time" href="#">
-                    11:44 PM · May 23, 2023
-                    </a>
-                </div>
-                <hr>
+            <div class="relative">
+                <p><a href="https://twitter.com/elonmusk" class="profile-name">Elon Musk</a></p>
+                <p class="profile-username">@elonmusk</p>
             </div>
-            <div class="tweet">
-                <div class="profile">
-                    <img class="profile-pic" src="./img/profile.jpg" alt="">
-                    <div class="user">
-                        <p><a href="https://twitter.com/elonmusk" class="profile-name">Elon Musk</a><img class="verify" width="15px" height="15px" src="./img/verify.png"></p>
-                        <p class="profile-username">@elonmusk</p>
-                    </div>
+            <div class="about" style="margin-left: 15px;">Both quality & quantity of high quality posts of all kinds
+                (short text, long essays,
+                pictures, audio & video) have improved dramatically.
+    
+                Thank you for contributing your voice to humanity’s digital public square!</div>
+            <p class="follower-menu"><a href="#"> <b>384</b> <span class="count">Following</span></a></p>
+            <p class="follower-menu"><a href="#"><b>8,536</b> <span class="count">Follower</span></a></p>
+        </div>
+        <div class="tweet">
+            <div class="profile">
+                <img class="profile-pic" src="./img/profile.jpeg" alt="">
+                <div class="user">
+                    <p><a href="https://twitter.com/nakul1705" class="profile-name">Nakul Yadav</a> <img class="verify"
+                            width="15px" height="15px" src="./img/verify.png">
+                    </p>
+                    <p class="profile-username">@nakul1705</p>
                 </div>
-                <div class="tweet-text">Both quality & quantity of high quality posts of all kinds (short text, long essays, pictures, audio & video) have improved dramatically. 
+            </div>
+            <div class="tweet-text">Github is a Aadhar card for a developer 😂
+                <a class="tag" href="https://twitter.com/GitHubIndia"> @GitHubIndia</a>
+                <a class="tag" href="https://twitter.com/github"> @github</a>
 
-                    Thank you for contributing your voice to humanity’s digital public square! </div>
-                <div class="numbers"><a class="time" href="#">
-                    11:44 PM · May 23, 2023
-                    </a>
-                </div><hr>
             </div>
-        </section>
-    </body>
+            <div class="numbers"><a class="time" href="#">
+                    11:44 PM · May 23, 2023
+                </a>
+            </div>
+                <div class="run">
+                  <a href="#">Replay</a>
+                  <a href="#">Retweet</a>
+                  <a href="#">Like</a>
+                </div>
+        </div>
+        <div class="tweet">
+            <div class="profile">
+                <img class="profile-pic" src="./img/tesla.png" alt="">
+                <div class="user">
+                    <p><a href="https://twitter.com/Tesla" class="profile-name">Tesla</a><img class="verify"
+                            width="15px" height="15px" src="./img/verify.png"></p>
+                    <p class="profile-username">@Tesla</p>
+                </div>
+            </div>
+            <div class="tweet-text">
+                <img class="tweet-image" src="./img/cat.jpeg"> </div>
+            <div class="numbers"><a class="time" href="#">
+                    11:44 PM · May 23, 2023
+                </a>
+            </div>
+            
+        </div>
+        <div class="tweet">
+            <div class="profile">
+                <img class="profile-pic" src="./img/profile.jpg" alt="">
+                <div class="user">
+                    <p><a href="https://twitter.com/elonmusk" class="profile-name">Elon Musk</a><img class="verify"
+                            width="15px" height="15px" src="./img/verify.png"></p>
+                    <p class="profile-username">@elonmusk</p>
+                </div>
+            </div>
+            <div class="tweet-text">Both quality & quantity of high quality posts of all kinds (short text, long essays,
+                pictures, audio & video) have improved dramatically.
+
+                Thank you for contributing your voice to humanity’s digital public square! </div>
+            <div class="numbers"><a class="time" href="#">
+                    11:44 PM · May 23, 2023
+                </a>
+            </div>
+            <div class="run">
+                <a href="#">Replay</a>
+                <a href="#">Retweet</a>
+                <a href="#">Like</a>
+              </div> 
+        </div>
+        <div class="tweet">
+            <div class="profile">
+                <img class="profile-pic" src="./img/tesla.png" alt="">
+                <div class="user">
+                    <p><a href="https://twitter.com/Tesla" class="profile-name">Tesla</a><img class="verify"
+                            width="15px" height="15px" src="./img/verify.png"></p>
+                    <p class="profile-username">@Tesla</p>
+                </div>
+            </div>
+            <div class="tweet-text">Multiple fully Tesla-made Bots now walking around & learning about the real world 🤖
+
+                Join the Tesla AI team → http://tesla.com/AI</div>
+            <div class="numbers"><a class="time" href="#">
+                    11:44 PM · May 23, 2023
+                </a>
+            </div>
+            <div class="run">
+                <a href="#">Replay</a>
+                <a href="#">Retweet</a>
+                <a href="#">Like</a>
+              </div>  
+        </div>
+        <div class="tweet">
+            <div class="profile">
+                <img class="profile-pic" src="./img/profile.jpeg" alt="">
+                <div class="user">
+                    <p><a href="https://twitter.com/nakul1705" class="profile-name">Nakul Yadav</a> <img class="verify"
+                            width="15px" height="15px" src="./img/verify.png">
+                    </p>
+                    <p class="profile-username">@nakul1705</p>
+                </div>
+            </div>
+            <div class="tweet-text">
+                Flying Through Giga Berlin
+                <iframe class="video" width=500 height="315" src="https://www.youtube.com/embed/7-4yOx1CnXE"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
+            </div>
+            <div class="numbers"><a class="time" href="#">
+                    11:44 PM · May 23, 2023
+                </a>
+            </div>
+            <div class="run">
+                <a href="#">Replay</a>
+                <a href="#">Retweet</a>
+                <a href="#">Like</a>
+            </div> 
+        </div>
+        <div class="tweet">
+            <div class="profile">
+                <img class="profile-pic" src="./img/profile.jpg" alt="">
+                <div class="user">
+                    <p><a href="https://twitter.com/elonmusk" class="profile-name">Elon Musk</a><img class="verify"
+                            width="15px" height="15px" src="./img/verify.png"></p>
+                    <p class="profile-username">@elonmusk</p>
+                </div>
+            </div>
+            <div class="tweet-text">Both quality & quantity of high quality posts of all kinds (short text, long essays,
+                pictures, audio & video) have improved dramatically.
+
+                Thank you for contributing your voice to humanity’s digital public square! </div>
+            <div class="numbers"><a class="time" href="#">
+                    11:44 PM · May 23, 2023
+                </a>
+            </div> 
+            <div class="run">
+                <a href="#">Replay</a>
+                <a href="#">Retweet</a>
+                <a href="#">Like</a>
+            </div> 
+        </div>
+    </section>
+</body>
+
 </html>
