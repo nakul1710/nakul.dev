@@ -175,9 +175,13 @@ div.relative {
 }
 .run a {
     text-decoration: none;
-    color:white;
-    background-color: skyblue;
+    color:black ;
+    background-color: grey;
     border:1px solid black;
-    height:30px;
+    height:25px;
     text-align: center;
+    display:inline-block;
+    padding-top: 5px;
+    width:155px;
+    margin-top: 5px;
 }
