@@ -146,6 +146,7 @@ nav a.active {
     margin-right: auto;
     margin-top: 20px;
     text-decoration: none;
+    color: black;
 }
 
 .join-btn:hover {
