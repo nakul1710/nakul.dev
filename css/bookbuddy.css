@@ -57,6 +57,11 @@ nav a.active {
     text-align: center;
 }
 
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
 .team {
     text-align: center;
 }
