@@ -111,6 +111,9 @@ nav a.active {
         border-radius: 3px;
     }
 }
+@media (max-width: 1000px) {
+    
+}
 
 .price>.stage {
     background-color: #ddd;
