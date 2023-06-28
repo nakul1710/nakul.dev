@@ -1,10 +1,12 @@
 
 body{
   background-image:url('../img/verify.png');
-  background-color: aqua;
+  background-color: black;
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right-top;
-  background-attachment: fixed;
-  
+  background-size: 150px 150px;
+  background-position: fixed;
+  text-align: center;
+}
+h1,p{
+    color:skyblue;
 }
