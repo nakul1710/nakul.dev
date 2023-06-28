@@ -1,0 +1,10 @@
+
+body{
+  background-image:url('../img/verify.png');
+  background-color: aqua;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right-top;
+  background-attachment: fixed;
+  
+}
