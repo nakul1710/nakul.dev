@@ -2,32 +2,50 @@
 <html>
 <head>
 <style>
-    h1{
-        background-color: red;
-        background-image: url(./img/logo.png);
-        background-size: 50px 50px;
-        background-repeat: no-repeat;
-        background-origin: border-box;
-        color: black;
-        padding: 50px;
-        border: 5px dashed black;
-        height: 200px;
-        text-align: left;
+     form{
         text-align: center;
-        text-decoration: underline;
-        background-size: contain;
-    }
-    body{
-        background-color: black;
-    }
+        margin-top: 100px;
+        width: 50%;
+        margin-left: 300px;
         
-
-    
+     }   
 </style>
 </head>
 <body>
-<h1>home sweet home</h1>
-<h1>home sweet home</h1>
+
+<form action="/action_page.php">
+    <fieldset>
+        <legend>info-name</legend>
+    <label for="fname">first name:</label><br>
+    <input type="text" id="fname" placeholder="enter your first name"><br>
+    <label for="lname">last name:</label><br>
+    <input type="text" id="lname" placeholder="enter your last name"><br>
+    <label for="pass">password:</label><br>
+    <input type="password" id="pass" placeholder="enter your password"><br>
+    <label for="date">Date:</label><br>
+    <input type="date"><br>
+    <label for="color">Color:</label>
+    <input type="color"><br>
+    <input type="file"><br>
+    <label for="month">Month,Year:</label><br>
+    <input type="Month"><br>
+    <label>verification-code:</label><br>
+    <input type="number"><br>
+    <label for="Url">Url:</label>
+    <input type="url"><br>
+    <input type="tel"><br>
+    <input type="datetime-local"><br>
+    <input type="range"><br>
+    <input type="submit"><br>
+    <select>
+        <option>safari</option>
+        <option>arc</option>
+        <option>chrome</option>
+        <option>firefox</option>
+    </select><br><br>
+    <button>clickhere!</button>
+</fieldset>
+</form>
     
 </body>
 </html>
