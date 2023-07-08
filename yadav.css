@@ -7,7 +7,7 @@ body{
     text-align: left;
     background-color: red;
     color: white;
-    padding: 3px;    
+    padding: 1px;    
 }
 .header h1 {
     color: white;
@@ -38,15 +38,20 @@ nav a:hover {
 }
 .about {
     text-align: center;
-    background-color: white;
+    background-color: #f9f9f9;;
     color:black;
+}
+.about h1{
+    text-align: center;
 }
 
 .about-content {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 25px;
+    line-height: 35px;
+    word-spacing: 12px;
     font-size: 20px;
     text-align: center;
+
 }
 .caption {
     position: absolute;
@@ -64,13 +69,20 @@ nav a:hover {
     text-shadow: 1px 1px 0 black;
     text-align: center;
     animation: bounce 1s infinite;
+    margin-right: 0px;
 }
 .Education{
     background-color: white;
     color:black
 }
-.about .address {
-    font-size: 40px;
+
+ .address {
+    font-size: 30px;
+    margin-top: 0px;
+    text-align: center;
+}
+.social-links{
+    margin-left:600px;
 }
 .social-links a {
     color: black;
@@ -81,9 +93,13 @@ nav a:hover {
 .svg-inline--fa {
     display: inline-block;
     font-size: inherit;
+    text-align: center;
     height: 1em;
     overflow: visible;
     vertical-align: -0.125em;
+}
+.Education{
+    background-color: white;
 }
 .Education.college {
    color: black;
@@ -91,11 +107,11 @@ nav a:hover {
 .Education a {
     color:red;
     text-decoration: none;
-    margin-left: 600px;
+    margin-left: 250px;
     
 }
 .Education h1,a,h2,p,img {
-    text-align: center;
+     ma
 }
 @media (max-width: 1000px) {
     .Education a {
