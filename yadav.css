@@ -82,7 +82,7 @@ nav a:hover {
     text-align: center;
 }
 .social-links{
-    margin-left:600px;
+    margin-left:630px;
 }
 .social-links a {
     color: black;
@@ -90,6 +90,13 @@ nav a:hover {
     margin-right: 10px;
     font-size: 30px;
 }
+@media (max-width:1000px){
+    .social-links{
+        margin-left:100px;
+    }
+}
+
+
 .svg-inline--fa {
     display: inline-block;
     font-size: inherit;
