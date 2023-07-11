@@ -7,7 +7,7 @@ body{
     text-align: left;
     background-color: red;
     color: white;
-    padding: 53px;    
+    padding: 25px;    
 }
 .header h1 {
     color: white;
@@ -16,7 +16,6 @@ body{
  .nav {
     display: inline;
     background-color: red;
-    padding-left: 0px;
 }
 
 .nav a {
@@ -24,7 +23,7 @@ body{
     color: white;
     text-align: center;
     margin-right: 0px;
-    padding: 4px 6px;
+    padding: 3px 3px;
     text-decoration: none;
     font-size: 15px;
     background-color: red;
