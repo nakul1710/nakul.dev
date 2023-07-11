@@ -89,6 +89,26 @@ body{
     margin-top: 0px;
     text-align: center;
 }
+.social-skills .button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 590px;
+  }
+  @media (max-width:1000px){
+    .social-skills .button {
+        background-color: red;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 0px 90px;
+      }
+  }
 .social-links{
     margin-left:630px;
 }
@@ -123,9 +143,7 @@ body{
     margin-left: 250px;
     
 }
-.Education h1,a,h2,p,img {
-     ma
-}
+
 @media (max-width: 1000px) {
     .Education a {
         color:red;
