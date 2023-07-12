@@ -99,7 +99,7 @@ body{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 0px 590px;
+    margin: 0px 600px;
   }
   @media (max-width:1000px){
     .social-skills .button {
@@ -113,7 +113,7 @@ body{
       }
   }
 .social-links{
-    margin-left:630px;
+    margin-left:628px;
 }
 .social-links a {
     color: black;
