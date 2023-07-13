@@ -99,7 +99,7 @@ body{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 0px 600px;
+    margin: 0px 750px;
   }
   .social-skills .button:hover {
     color:black;
@@ -108,7 +108,7 @@ body{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 0px 600px;
+    margin: 0px 750px;
   }
   @media (max-width:1000px){
     .social-skills .button {
