@@ -132,7 +132,7 @@ body{
 }
 @media (max-width:1000px){
     .social-links{
-        margin-left:100px;
+        margin-left:25px;
     }
 }
 .svg-inline--fa {
@@ -154,21 +154,19 @@ body{
     color:red;
     text-decoration: none;
     margin-left: 250px;
-    
 }
 @media (max-width:1000px){
     .Education p {
-       text-align: center;
+       margin-right: 40px;
     }
 }
 
 @media (max-width: 1000px) {
     .Education a {
-        color:red;
-        text-decoration: none;
         margin-left: 90px;
     } 
 }
+
 .projects{
     display: flex;
     justify-content: center;
