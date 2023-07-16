@@ -132,7 +132,10 @@ li {
         margin-top: 0px;
         text-align: center;
     }
-}
+}   
+    .social-skills .button {
+        margin-top: 10px;
+    }
 
     .social-skills .button a {
         background-color: red;
