@@ -255,7 +255,7 @@ li {
 }
 .project-item img {
     height:300px;
-    width:500px
+    width:250px
 }
 @media (max-width:1000px){
     .project-item img {
