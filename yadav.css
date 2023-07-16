@@ -1,4 +1,6 @@
-
+*{
+    margin-top: 0px;
+}
 body{
     margin-top: 0px;
     margin-left: 0px;
@@ -7,7 +9,10 @@ body{
 .header {
     margin-top: 0px;
     background-color: red;
-    
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    top:0px;
 }
 .header h1 {
     width: 100px;
