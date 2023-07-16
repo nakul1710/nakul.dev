@@ -137,15 +137,7 @@ li {
         margin-top: 10px;
     }
 
-    .social-skills .button a {
-        background-color: red;
-        color: white;
-        padding: 5px;
-        text-decoration: none;
-        font-size: 15px;
-        margin-left: 700px;
-       margin-top: 5px;
-      }
+    
 
   @media (max-width:1800px){
     .social-skills .button a {
@@ -153,14 +145,14 @@ li {
         color: black;
         padding: 5px;
         text-decoration: none;
+        margin-left: 620px;
         font-size: 15px;
-        margin-left:615px;
         margin-top: 5px;
       }
   }
   
   @media (max-width:1000px){
-    .social-skills .button {
+    .social-skills .button a {
         background-color: red;
         color: black;
         padding: 10px 20px;
