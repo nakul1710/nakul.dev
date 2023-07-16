@@ -1,6 +1,4 @@
-*{
-    margin-top: 0px;
-}
+
 body{
     margin-top: 0px;
     margin-left: 0px;
@@ -63,6 +61,7 @@ li {
     text-align: center;
     background-color: #f9f9f9;
     color:black;
+    
 }
 .about h1{
     text-align: center;
@@ -70,7 +69,7 @@ li {
 }
 
 .about-content {
-    font-family: Verdana;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     display:flex;
     justify-content: center;
     text-align: justify;
@@ -78,6 +77,7 @@ li {
     word-spacing: 1px;
     font-size: 20px;
     text-align: center;
+    word-break: break-all;
 }
 
 
@@ -93,7 +93,7 @@ li {
     text-align: center;
 }
 .heading{
-    font-size: 70px;
+    font-size: 50px;
     text-shadow: 1px 1px 0 black;
     text-align: center;
     animation: bounce 1s infinite;
@@ -133,27 +133,33 @@ li {
         text-align: center;
     }
 }
-.social-skills .button {
-    background-color: red;
-    color: white;
-    padding: 5px;
-    text-decoration: none;
-    font-size: 15px;
-   margin-left: 775px;
-   margin-top: 5px;
+
+    .social-skills .button a {
+        background-color: red;
+        color: white;
+        padding: 5px;
+        text-decoration: none;
+        font-size: 15px;
+        margin-left: 700px;
+       margin-top: 5px;
+      }
+
+  @media (max-width:1800px){
+    .social-skills .button a {
+        background-color: red;
+        color: black;
+        padding: 5px;
+        text-decoration: none;
+        font-size: 15px;
+        margin-left:615px;
+        margin-top: 5px;
+      }
   }
-  .social-skills .button:hover {
-    color:black;
-    background-color: red;
-    padding:  5px;
-    text-decoration: none;
-    font-size: 15px;
-    margin-left: 775px;
-  }
+  
   @media (max-width:1000px){
     .social-skills .button {
         background-color: red;
-        color: white;
+        color: black;
         padding: 10px 20px;
         text-decoration: none;
         display: inline-block;
@@ -185,7 +191,7 @@ li {
 }
 .Education{
     background-color: white;
-    color:black
+    color:black;
 }
 .Education.college {
    color: black;
@@ -195,9 +201,12 @@ li {
     text-decoration: none;
     margin-left: 250px;
 }
+.Education p{
+    margin-left: 250px;
+}
 @media (max-width:1000px){
-    .Education p {
-       margin-right: 40px;
+    .Education p  {
+       margin-left: 130px;
     }
 }
 
@@ -221,9 +230,10 @@ li {
     justify-content: center;
 }
 .projects-content {
-    width: 100%;
+    width: 80%;
     max-width: 800px;
     background-color: #f9f9f9;
+    margin-bottom: 50px;
 }
 .project-grid {
     display: grid;
@@ -247,6 +257,16 @@ li {
     text-decoration: none;
     color:white;
     background-color: #333;
+}
+.project-item img {
+    height:300px;
+    width:500px
+}
+@media (max-width:1000px){
+    .project-item img {
+        height:200px;
+        width:100px
+    }
 }
 .gallery-section {
     padding: 20px;
