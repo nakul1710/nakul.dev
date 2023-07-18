@@ -69,20 +69,23 @@ li {
     
 }
 .about h1{
+    font-size: 50px;
+    text-shadow: 1px 1px 0 black;
     text-align: center;
+    margin-right: 0px;
     
 }
 
-.about-content {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    display:flex;
-    justify-content: center;
-    text-align: justify;
-    line-height: 30px;
-    word-spacing: 1px;
-    font-size: 20px;
+
+.about-content p{
+    font-family:verdana;
+    text-align:justify;
+    line-height:30px;
     text-align: center;
-    
+}
+
+.about-content h1{
+    text-align: center;
 }
 
 
@@ -101,7 +104,6 @@ li {
     font-size: 50px;
     text-shadow: 1px 1px 0 black;
     text-align: center;
-    animation: bounce 1s infinite;
     margin-right: 0px;
 }
 .head{
@@ -111,15 +113,39 @@ li {
     animation: bounce 1s infinite;
     margin-right: 0px; 
 }
+ .head span {
+    color:red;
+}
 @media (max-width:1000px){
     .head{
         font-size: 30px;
         text-shadow: 1px 1px 0 black;
         text-align: center;
-        animation: bounce 1s infinite;
         margin-right: 0px; 
     }
       
+}
+
+@keyframes bounce {
+    0%{
+        transform:translateY(0);
+    }
+
+    50%{
+        transform:translateY(-20px);
+    }
+
+    100%{
+        transform:translateY(0);
+    }
+
+    }
+    
+.red{
+    color:red;
+}
+ .head .white{
+    color:black;
 }
 .Education{
     background-color: white;
@@ -130,6 +156,8 @@ li {
     font-size: 30px;
     margin-top: 0px;
     text-align: center;
+    padding: 10px 0px 10px 0px;
+
 }
 @media (max-width:1000px){
     .address {
