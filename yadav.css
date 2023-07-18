@@ -84,6 +84,17 @@ li {
     line-height:30px;
     display:flex;
     justify-content: center;
+    margin: 120px;
+}
+@media (max-width:1000px) {
+    .about-content p{
+        font-family:verdana;
+        text-align:justify;
+        line-height:30px;
+        display:flex;
+        justify-content: center;
+        margin: 50px;
+    }
 }
 
 .about-content h1{
