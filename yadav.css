@@ -66,6 +66,7 @@ li {
     text-align: center;
     background-color: #f9f9f9;
     color:black;
+    padding-bottom: 40px;
     
 }
 .about h1{
@@ -81,7 +82,8 @@ li {
     font-family:verdana;
     text-align:justify;
     line-height:30px;
-    text-align: center;
+    display:flex;
+    justify-content: center;
 }
 
 .about-content h1{
@@ -168,21 +170,17 @@ li {
 }   
     .social-skills .button {
         margin-top: 10px;
+        
     }
-
-    
-
-  @media (max-width:1800px){
     .social-skills .button a {
         background-color: red;
-        color: black;
-        padding: 5px;
+        color: white;
+        padding: 7px;
         text-decoration: none;
         margin-left: 620px;
         font-size: 15px;
         margin-top: 5px;
       }
-  }
   
   @media (max-width:1000px){
     .social-skills .button a {
