@@ -1,5 +1,6 @@
 *{
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 body{
     margin-top: 0px;
@@ -74,12 +75,12 @@ li {
     text-shadow: 1px 1px 0 black;
     text-align: center;
     margin-right: 0px;
-    
 }
 
 
 .about-content p{
     font-family:verdana;
+    font-size: 20px;
     text-align:justify;
     line-height:30px;
     display:flex;
@@ -162,8 +163,19 @@ li {
 }
 .Education{
     background-color: white;
-    color:black
+    color:black;
+    line-height: 40px;
 }
+.Education  p{
+    line-height: 20px;
+}
+.Education a {
+    color:red;
+}
+.Education a:hover {
+ color:black;
+}
+
 
  .address {
     font-size: 30px;
@@ -339,11 +351,11 @@ li {
 footer {
     background-color: #333;
     color: #fff;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
-    margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    
 }
 .footer-content {
     display: flex;
