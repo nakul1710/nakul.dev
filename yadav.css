@@ -192,13 +192,15 @@ li {
     }
 }   
     .social-skills .button {
-        margin-top: 10px;
+        margin-top: 20px;
+       
         
     }
     .social-skills .button a {
         background-color: red;
         color: white;
-        padding: 7px;
+        width: 80px;
+        padding: 9px;
         text-decoration: none;
         margin-left: 620px;
         font-size: 15px;
