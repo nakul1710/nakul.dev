@@ -196,6 +196,9 @@ li {
        
         
     }
+    .social-skills .button{
+        text-align: center;
+    }
     .social-skills .button a {
         background-color: red;
         color: white;
@@ -210,7 +213,8 @@ li {
   @media (max-width:1000px){
     .social-skills .button a {
         background-color: red;
-        color: black;
+        color: white;
+
         padding: 10px 20px;
         text-decoration: none;
         display: inline-block;
