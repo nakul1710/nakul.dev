@@ -366,3 +366,12 @@ footer {
     align-items: center;
     flex-wrap: wrap;
 }
+
+
+@media (max-width:1000px){
+    .chart-container a img{
+        display: flex;
+        justify-content: center;
+        width:400px;
+     }
+}
