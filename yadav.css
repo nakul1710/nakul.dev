@@ -228,6 +228,12 @@ li {
     margin-right: 10px;
     font-size: 30px;
 }
+.social-links a:hover {
+    color: red;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 30px;
+}
 @media (max-width:1000px){
     .social-links{
         margin-left:25px;
