@@ -18,7 +18,7 @@ body{
 .header h1 {
     width: 100px;
     height: 50px;
-    margin-top: 3px;
+    margin-top: 0px;
     padding-left: 15px;
     color: white;
     display: inline;
