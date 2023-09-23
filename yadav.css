@@ -54,20 +54,22 @@ margin: 0.5%;
  }
  .project{
      margin-top: 100px;
+     
  }
- .project img{
-  margin-left: 0px;
+ .pro-img img{
+  display: flex;
+  justify-content: center;
+
+ }
+ .pro-img{
+    display: flex;
+    justify-content: center;
  }
  
  .project .jumbotron h2{
      text-align: center;
  }
- @media (max-width: 1000px){
-     .project img{
-         display: flex;
-         justify-content: center;
-     }
- }
+ 
  
   .jumbotron img{
      display: flex;
