@@ -10,15 +10,21 @@ h1{
     left:0px;
     width: 100%;
  }
+ 
+ .jumbotron{
+margin: 0.5%;
+ }
+ 
  .name{
      text-align: center;
      
      margin-top: 100px;
      margin-bottom: 50px;
  }
- .jumbotron h1{
-     text-align: center;
+ .jumbotron h2{
+    text-align: center ;
  }
+ 
  .education{
      margin-left: 50px;
  }
