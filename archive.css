@@ -27,8 +27,19 @@
     float:right;
 
 }
-.wayback{
+.machine{
     background-color: #666666;
-    color: white;
+    color:#dcdcdc;
+    margin-top: 44px;
+    height: 200px;
 
+}
+.machine p{
+    text-align: center;
+    margin-top: 10px;
+
+}
+.machine img{
+    text-align: center;
+    margin-left: 400px;
 }
