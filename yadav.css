@@ -21,6 +21,9 @@ margin: 0.5%;
      margin-top: 100px;
      margin-bottom: 50px;
  }
+ .name h1{
+    font-size: 70px;
+ }
  .jumbotron h2{
     text-align: center ;
  }
